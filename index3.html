@@ -1,0 +1,180 @@
+<html><head>
+	<meta charset="utf-8"> 
+	<title> CSS Alan </title>
+	<link rel="stylesheet" ="estilos.css"="">
+	<style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#container{
+    /width: 70%;/
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+header{ 
+    background: purple;
+    height: 100px; 
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed black;
+}
+    nav{
+        background: yellow;
+        height: 50px;
+        line-height: 30px;
+        border-bottom: 1px solid black;
+    }
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+
+}
+
+    .clearfix{
+        clear:both;
+    }
+#content{
+    float:left;
+    width:calc( 80% - 80px);
+    min-height: 500px;
+    background:brown;
+    padding: 40px;
+
+}
+
+.article{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+
+}
+
+.article h2{
+    font-size: 25px;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+        </style>
+
+
+</head>
+<body>
+	
+	<div id="container">
+		<header>
+		<h1> Martin Reyes Alan Yair</h1>
+		</header>
+	
+	<nav>
+		<ul>
+			<li>
+				<a href="index3.html">
+				Inicio
+				</a>
+			</li>
+			<li>
+				<a href="datoses3.html">
+				Datos Escolares
+				</a>
+
+
+			</li>
+			<li>
+				<a href="Hobbieses3.html">
+				Hobbies
+				</a>
+			</li>
+			<li>
+				<a href="heroeses3.html">
+				Heroe
+				</a>
+			</li>
+			<li>
+				<a href="musicases3.html">
+				Musica
+				</a>
+			</li>
+			<li>
+				<a href="Comidases3.html">
+				Comida
+				</a>
+			</li>
+			<li>
+				<a href="HeroeNacional3.html">
+				Heroe Nacional
+				</a>
+			</li>
+			<li>
+				<a href="calculadorajavascrip.html">
+				Calculadora
+				</a>
+			</li>
+		</ul>
+
+	</nav>
+    <div class="clearfix"> </div>
+
+
+	<section id="content">
+		<article class="article">
+			<h2> MI index  </h2>
+			<p> Hola </p>
+
+		</article>
+		<article class="article">
+			<h2> Bienvenidos a mi proyecto </h2>
+			<p> A continuación veran partes de mi vida y algunos de mis gustos </p>
+
+		</article>
+		
+	</section>
+	<aside>
+		<h2> Barra lateral </h2>
+		<form>
+			<input type="text">
+			<input type="submit" value="buscar">
+		</form>
+	</aside>
+    <div class="clearfix"> </div>
+	<footer>
+		ALAN YAIR WEP © 2021
+	</footer>
+    </div>
+
+</body></html>
